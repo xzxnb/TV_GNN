@@ -1,0 +1,14 @@
+# 忽略指定的文件夹（核心规则）
+GNN/wfomi_data/
+1/
+lifted_sampling_fo2/outputs/
+
+# 保留之前的通用忽略规则（可选，建议保留）
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.log
+venv/
+.DS_Store
+Thumbs.db
+GNN/mlruns/

@@ -1,0 +1,12 @@
+defaults:
+    - general: general_default
+    - model: discrete
+    - train: train_default
+    - dataset: qm9
+
+max_num_atoms: "0"
+seed: "0"
+ontology_file: "/home/jungpete/projects/shiny-happiness/data_creation/ontology"
+base_mol_dir: ""
+filename: "..."
+limit_train: "0"

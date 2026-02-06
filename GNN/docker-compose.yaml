@@ -1,0 +1,36 @@
+version: "3.7"
+
+services:
+  base:
+    build:
+      context: .
+      args:
+        PYTHON_VERSION: 3.8.3
+        USER_ID: "$USER_ID"
+        GROUP_ID: "$GROUP_ID"
+    image: egmm:latest
+    runtime: nvidia
+    environment:
+      - LOGNAME
+      - MLFLOW_TRACKING_URI
+      - MLFLOW_TRACKING_USERNAME
+      - DAGSHUB_REPO_OWNER
+      - DAGSHUB_REPO_NAME
+      - DAGSHUB_USER_TOKEN
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - DRY=1
+    volumes:
+      - ./:/app
+      - ./:/home/jungpete/projects/shiny-happiness
+      - /home/peter/projects/deepgraphon:/deepgraphon
+      - /home/peter/projects/deepgraphon:/home/jungpete/projects/deepgraphon
+      - /home/peter/projects/nmln-torch:/home/jungpete/projects/nmln-torch
+      - /stuff:/stuff
+      - .netrc/:/home/app/.netrc
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: ["conda", "run", "-n", "base", "python", "gan/train.py", "wfomi_data/json/color1_1000k/domain10/tv0.0", "--seed", "0", "--gpu", "0", "--dry"]
+
+
+

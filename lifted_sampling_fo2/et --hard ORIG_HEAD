@@ -1,0 +1,44 @@
+[33m1aeca22[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m MLN_to_WFOMC1
+[33m560c316[m[33m ([m[1;31mupstream/master[m[33m, [m[1;31mupstream/HEAD[m[33m)[m Merge pull request #15 from lucienwang1009/comb
+[33ma883882[m[33m ([m[1;31mupstream/comb[m[33m, [m[1;31morigin/comb[m[33m)[m support linear order axiom
+[33m05d8355[m fix a bug of computing independent cells
+[33m7ec65ca[m Merge pull request #14 from lucienwang1009/nullary_predicates
+[33m705e517[m[33m ([m[1;31mupstream/nullary_predicates[m[33m, [m[1;31morigin/nullary_predicates[m[33m)[m 1. handle nullary predicates; 2. handle disjunction of quantified formulas
+[33m61ad281[m Add bibtex of AIJ paper
+[33md0bed7b[m Add the examples in AIJ paper
+[33m05b5ef7[m Merge pull request #13 from MengQiaolan/master
+[33m2e668c9[m fix cell graph of fasterv2
+[33m3fc6d6e[m fix bugs involved in expanding symengine expression to polynomial
+[33mf9047db[m support cardinality constraints in the LRA form, e.g., |fr| - 2 |sm| = 0
+[33me2755cd[m 1. disable distributing quantifier due to the bug previously found; 2. add tests for wfomc; 3. fix a bug concerning fasterv2WFOMC
+[33m6b34985[m optimize build_two_tables
+[33m5318227[m disable the comparison of expr in AtomicFormula
+[33mb056c71[m fix bugs of finding mis in fastWFOMC
+[33m0ad8696[m Merge pull request #10 from MengQiaolan/fix_bug_of_I1_independent_set
+[33m3fcffdf[m fix bug of I1 independent set
+[33mbf10306[m Merge pull request #9 from MengQiaolan/modified_cell_sysmmetries
+[33m1a878fa[m add wfomc with modified cell sysmmetries
+[33m9514328[m save predicates when parsing `ExactlyOne`
+[33md0b5a4e[m add wfomc citation
+[33m2f0d91e[m fix bugs of cardinality constraint; add counting readme
+[33ma269236[m add cache in fol manipulations for faster 2-table building
+[33m1d6b65c[m disable pop_quantifiers due to "https://github.com/lucienwang1009/lifted_sampling_fo2/issues/8"
+[33mc75524d[m fix some bugs
+[33m14f910d[m Merge pull request #7 from MengQiaolan/support_mln
+[33m15ba429[m support mln
+[33m8f8a56b[m fix bug
+[33me4a2316[m Merge pull request #6 from lucienwang1009/public
+[33md18a6d8[m[33m ([m[1;31mupstream/public[m[33m, [m[1;31morigin/public[m[33m)[m add setup.py
+[33mb06bba7[m Merge pull request #5 from MengQiaolan/sc2
+[33m4537cbc[m support sc2
+[33m2932863[m Merge pull request #4 from lucienwang1009/public
+[33m1e242a8[m update README
+[33m943fae6[m Merge pull request #3 from lucienwang1009/public
+[33m645d204[m update requirements
+[33m8fea83d[m Merge branch 'public' of https://github.com/lucienwang1009/sampling_fo2 into public
+[33m8a291be[m fix bug of parsing weightings
+[33m5abbf36[m Merge pull request #2 from lucienwang1009/public
+[33me895d3f[m Merge branch 'master' into public
+[33m94d784a[m update
+[33mc604811[m update README
+[33m2cfd1d7[m init commit

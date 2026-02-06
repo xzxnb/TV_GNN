@@ -1,0 +1,21 @@
+name: reinvent-randomized
+channels:
+  - pytorch
+  - defaults
+  - rdkit
+  - conda-forge
+dependencies:
+  - python=3.6
+  - rdkit
+  - pytorch=1.1.0
+  - cudatoolkit=9.0
+  - tqdm
+  - tensorflow
+  - scipy
+  - matplotlib
+  - pyspark
+  - pip
+  - pip:
+    - tb-nightly
+    - future
+    - deepsmiles
