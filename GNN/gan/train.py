@@ -496,38 +496,4 @@ def recall(pred: torch.Tensor, target: torch.Tensor) -> float:
 
 
 if __name__ == "__main__":
-    # from torchviz import make_dot
-    # import matplotlib.pyplot as plt
-    # from torchinfo import summary
-    # # 初始化模型和输入（同上）
-    # model = GF(
-    #     n_node_classes=3,
-    #     n_edge_classes=1,
-    #     domain_size=10,
-    #     val_metrics_file=f".val_metrics.multiedgefixed.json"
-    #            )
-    # input_feat = torch.zeros((128, 10, 4), dtype=torch.float32)
-    # for i in range(128):
-    #     for j in range(10):
-    #         seed = torch.tensor([i, j]).sum().item()  # 基于循环索引生成种子
-    #         torch.manual_seed(seed)
-    #         feat_idx = torch.randint(low=1, high=4, size=(1,)).item()
-    #         input_feat[i,j,feat_idx] = 1
-    # adj_matrix_b = torch.randint(
-    #     low=0,  # 最小值（包含）
-    #     high=2,  # 最大值（不包含，因此实际取 0 或 1）
-    #     size=(128, 10, 10),
-    #     dtype=torch.float32  # 若需要浮点型（如用于计算）
-    # )
-    # for i in range(128):
-    #     for j in range(10):
-    #         for k in range(j+1):
-    #             if k !=j:
-    #                 adj_matrix_b[i,j,k] = adj_matrix_b[i,k,j]
-    #             else:
-    #                 adj_matrix_b[i, j, k] = 0
-    #
-    # adj_matrix={0:adj_matrix_b}
-    # summary(model, input_data=[input_feat, adj_matrix], depth=5)
-
     app()

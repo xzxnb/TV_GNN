@@ -1,293 +1,293 @@
-# python lifted_sampling_fo2/weight_TV.py
-# python ./lifted_sampling_fo2/sampler.py -i ./lifted_sampling_fo2/models/color1.wfomcs -k 100000 -o ./lifted_sampling_fo2/outputs/color1/num100k_mln/domain10
-# python ./lifted_sampling_fo2/dump.py
+python lifted_sampling_fo2/weight_TV.py
+python ./lifted_sampling_fo2/sampler.py -i ./lifted_sampling_fo2/models/color1.wfomcs -k 100000 -o ./lifted_sampling_fo2/outputs/color1/num100k_mln/domain10
+python ./lifted_sampling_fo2/dump.py
 export MKL_THREADING_LAYER=GNU
 export PYTHONPATH=/home/bml/.storage/mnt/v-p6fjazf1ht5sxbo0/org/TV_GNN/GNN:$PYTHONPATH
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.0 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.1 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.2 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.3 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.4 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.5 --train-size 100 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.6 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.7 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.8 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv0.9 --train-size 20000 --val-size 10000 --gpu 0
 
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
-# python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 100 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 500 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 1000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 5000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
+python ./GNN/gan/train.py ./GNN/wfomi_data/json/color1_100k_mln/domain10/tv1.0 --train-size 20000 --val-size 10000 --gpu 0
 python ./GNN/gan/plot_ave_acc.py
 
 

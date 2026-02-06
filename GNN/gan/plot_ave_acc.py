@@ -5,19 +5,16 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 import numpy as np
 
-# -------------------------- 配置参数 --------------------------
-ROOT_DIR = "./GNN/wfomi_data/json/color1_100k_mln/domain10"  # 替换为实际路径
-TRAIN_SIZES = [100, 500, 1000, 5000, 20000]  # 纵坐标（训练样本数）
-TV_FOLDERS = [f"tv{round(i*0.1, 1)}" for i in range(11)]  # 横坐标（tv0.0到tv1.0）
+
+ROOT_DIR = "./GNN/wfomi_data/json/color1_100k_mln/domain10"
+TRAIN_SIZES = [100, 500, 1000, 5000, 20000]
+TV_FOLDERS = [f"tv{round(i*0.1, 1)}" for i in range(11)]
 TV_DISTANCE = [round(i*0.1, 1) for i in range(11)]
-BAYES_VALUES = [round(0.5 + i*0.05, 2) for i in range(11)]  # bayes列值（0.5到1.0，步长0.05）
-VAL_SIZE = 10000  # 固定验证集大小
+BAYES_VALUES = [round(0.5 + i*0.05, 2) for i in range(11)]
+VAL_SIZE = 10000
 OUTPUT_EXCEL = "val_accuracy_avg_results_with_bayes.xlsx"
 OUTPUT_PLOT = "datasets_domain10_ave.png"
 
-# 设置中文字体（如果需要显示中文）
-# plt.rcParams["font.family"] = ["SimHei", "WenQuanYi Micro Hei", "DejaVu Sans"]
-# plt.rcParams["axes.unicode_minus"] = False  # 解决负号显示问题
 
 def extract_avg_val_accuracy(file_path):
     """从单个JSON文件中提取所有val_accuracy并计算平均值"""
@@ -42,10 +39,7 @@ def extract_avg_val_accuracy(file_path):
 
 def create_excel_with_bayes():
     """生成包含bayes列的Excel表格"""
-    # 初始化结果数据框：索引=训练样本数，列=tv文件夹名
     df = pd.DataFrame(index=TRAIN_SIZES, columns=TV_FOLDERS)
-    
-    # 遍历所有tv文件夹和训练尺寸，填充val_accuracy平均值
     for tv_folder in TV_FOLDERS:
         tv_path = Path(ROOT_DIR) / tv_folder
         if not tv_path.exists():
@@ -114,14 +108,9 @@ def plot_excel_data(df):
     plt.show()
 
 def main():
-    # 1. 生成包含bayes列的Excel
     df = create_excel_with_bayes()
-    
-    # 2. 打印表格预览
     print("\n生成的表格预览:")
-    print(df.round(4))  # 保留4位小数显示
-    
-    # 3. 绘制可视化图表
+    print(df.round(4))  #
     plot_excel_data(df)
 
 if __name__ == "__main__":
