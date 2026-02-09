@@ -8,7 +8,11 @@ This command will generate an Excel file in the ./lifted\_sampling\_fo2/data1 fo
 
 2\. python ./lifted\_sampling\_fo2/sampler.py -i ./lifted\_sampling\_fo2/models/color1.wfomcs -k 100000 -o ./lifted\_sampling\_fo2/outputs/color1/num100k\_mln/domain10 :
 
-This command will sample using different weight pairs based on different TV-distances, with a sample size of 10k positive and 10k negative samples. Subsequent training and validation sets will be randomly sampled from this sample.
+This command will sample using different weight pairs based on different TV-distances, with a sample size of 10k positive and 10k negative samples. Subsequent training and validation sets will be randomly sampled from this sample.When running the modify command, it is necessary to ensure that the sixth and seventh lines of the color1.wfomcs file:
+
+V = 0
+
+0 1 aux
 
 3\. python ./lifted\_sampling\_fo2/dump.py :
 

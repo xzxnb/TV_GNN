@@ -1,5 +1,0 @@
-
-data_name=['wfomi_data/json/color1_10k_mln/domain10/tv0.0\\0.txt', 'wfomi_data/json/color1_10k_mln/domain10/tv0.0\\1.txt']
-train_path='wfomi_data/json/color1_500_mln/domain10/tv0.0\\0.txt'
-generated_path='wfomi_data/json/color1_500_mln/domain10/tv0.0\\1.txt'
-auto_train_ratio=0.7

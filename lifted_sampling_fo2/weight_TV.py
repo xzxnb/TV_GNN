@@ -139,8 +139,8 @@ def MLN_TV(mln1: str,mln2: str, w1, w2) :
 
 
 if __name__ == '__main__':
-    mln1 = "models\\k_colored_graph_1.mln"
-    mln2 = "models\\k_colored_graph_1.mln"
+    mln1 = "./lifted_sampling_fo2/models/k_colored_graph_1.mln"
+    mln2 = "./lifted_sampling_fo2/models/k_colored_graph_1.mln"
 
     weight1 = [0.1*(i+1) for i in range(20)]
     weight2 = [0.1*(i+1) for i in range(20)]
@@ -168,7 +168,7 @@ if __name__ == '__main__':
     print("code run time: ", execution_time)
 
     df = pd.DataFrame(result, columns=["w1", "w2", "TV"])
-    excel_filename = "data1/color1_domain10_TV.xlsx"
+    excel_filename = "./lifted_sampling_fo2/data1/color1_domain10_TV.xlsx"
     df.to_excel(excel_filename, index=False)
 
 

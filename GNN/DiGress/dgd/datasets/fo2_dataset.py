@@ -8,7 +8,6 @@ import torch.nn.functional as F
 from torch_geometric.data import Data, Dataset
 from rdkit import Chem
 from rdkit.Chem.rdchem import BondType as BT
-from DiGress.dgd.datasets.abstract_dataset import AbstractDatasetInfos
 from DiGress.dgd.datasets.abstract_dataset import AbstractDataModule
 
 bonds = {"friends": 0}
@@ -337,11 +336,3 @@ class FO2Dataset(Dataset):
         return data_list
 
 
-class FO2DatasetInfos(AbstractDatasetInfos):
-    def __init__(self, datamodule, dataset_config):
-        self.datamodule = datamodule
-        self.name = "nx_graphs"
-        self.n_nodes = self.datamodule.node_counts()
-        self.node_types = self.datamodule.node_types()
-        self.edge_types = self.datamodule.edge_counts()
-        super().complete_infos(self.n_nodes, self.node_types)

@@ -3,5 +3,5 @@
 \forall X: ((red(X) & ~blue(X) & ~green(X)) | (~red(X) & blue(X) & ~green(X)) | (~red(X) & ~blue(X) & green(X))) &
 \forall X: (\forall Y: (aux(X,Y) <-> (edge(X,Y) -> ~(red(X) & red(Y)) & ~(blue(X) & blue(Y)) & ~(green(X) & green(Y)))))
 
-V = 10
-1.5 1 aux
+V = 0
+0 1 aux
