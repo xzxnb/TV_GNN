@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from torch_geometric.data import Data, Dataset
 from rdkit import Chem
 from rdkit.Chem.rdchem import BondType as BT
-from DiGress.dgd.datasets.abstract_dataset import AbstractDataModule
+from datasets.abstract_dataset import AbstractDataModule
 
 bonds = {"friends": 0}
 

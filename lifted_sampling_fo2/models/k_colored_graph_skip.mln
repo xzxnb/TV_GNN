@@ -1,9 +1,0 @@
-~edge(X,X).
-edge(X,Y) -> edge(Y,X).
-\exists Y: (neighbor_blue(X) -> (edge(X,Y) & blue(Y))).
-(edge(X,Y) & blue(Y)) -> neighbor_blue(X).
-0 edge(X,Y) -> (~((red(X) & neighbor_blue(Y))))
-(red(X) & ~blue(X) & ~green(X)) | (~red(X) & blue(X) & ~green(X)) | (~red(X) & ~blue(X) & green(X)).
-
-V = 10
-

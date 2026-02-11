@@ -7,8 +7,8 @@ import torch_geometric as tg
 import pytorch_lightning as pl
 from pydantic import BaseModel
 # from dgd.datasets import fo2_dataset
-from DiGress.dgd.datasets import fo2_dataset
-from gan.mlflow_utils import SafeMLFlowLogger
+from datasets import fo2_dataset
+from mlflow_utils import SafeMLFlowLogger
 import re
 from typing import Optional
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
